@@ -22,4 +22,4 @@ MonoBehaviour:
   _gold: 0
   _sp: {fileID: 0}
   _skillData:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 5542a106a79c5ba4e88183692b78ad94, type: 2}
