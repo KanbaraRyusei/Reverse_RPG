@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerBase : MonoBehaviour, IDamage
+public class PlayerBase : MonoBehaviour, IDamage, ISelectAction
 {
     public string Name => _name;
     public int HP => _hp;
@@ -38,6 +38,12 @@ public class PlayerBase : MonoBehaviour, IDamage
         _maxHp = _playerData.MaxHP;
         _maxMp = _playerData.MaxMP;
         _skillDatas = _playerData.Skill;
+    }
+
+    public void SelectAction()
+    {
+        //BattleViewManager.Instance.SetPanel(true);
+
     }
 
     public void ReceiveDamage(int damage)
