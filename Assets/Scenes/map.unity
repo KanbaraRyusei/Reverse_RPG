@@ -224,7 +224,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9145265101756467173, guid: 93e5fd83ad8e67145aa4d03e37a746c4,
+  m_Sprite: {fileID: 6413454591586016602, guid: fc222687816846e43a591851d54127b8,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -75059,6 +75059,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movespeed: 3
   playerAnime: {fileID: 868059610}
+  _mapSceneName: BattleTest
   rb: {fileID: 868059611}
 --- !u!1 &945260649
 GameObject:
@@ -78620,6 +78621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerData: {fileID: 11400000, guid: 169211d286fb8ae4185b91b1c187f336, type: 2}
+  _playerActions: []
 --- !u!4 &1827108807
 Transform:
   m_ObjectHideFlags: 0
