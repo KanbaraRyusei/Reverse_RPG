@@ -38,4 +38,22 @@ public class ItemData : ScriptableObject
         HP,
         MP
     }
+
+    public void UseItem(GameObject go)
+    {
+        if(_param == Param.HP)
+        {
+            if (go.TryGetComponent(out IHeelHP ih))
+            {
+                ih.HeelHP(_heel);
+            }
+        }
+        else
+        {
+            if(go.TryGetComponent(out IHeelMP ih))
+            {
+                ih.HeelMP(_heel);
+            }
+        }
+    }
 }

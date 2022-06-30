@@ -12,13 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee0f2dae301a79045bad49e9666571cd, type: 3}
   m_Name: TestEnemy
   m_EditorClassIdentifier: 
-  _name: 
-  _power: 0
-  _defensePower: 0
-  _speed: 0
-  _maxHp: 0
-  _maxMp: 0
-  _exp: 0
-  _gold: 0
-  _sp: {fileID: 0}
-  _skillData: []
+  _name: "\u9B54\u738B"
+  _power: 1
+  _defensePower: 1
+  _speed: 1
+  _maxHp: 1
+  _maxMp: 1
+  _exp: 1
+  _gold: 1
+  _sp: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  _skillData:
+  - {fileID: 11400000, guid: 085b9e5842d8f6a48ab058b7508c4a5f, type: 2}

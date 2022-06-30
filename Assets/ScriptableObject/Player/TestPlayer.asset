@@ -13,10 +13,17 @@ MonoBehaviour:
   m_Name: TestPlayer
   m_EditorClassIdentifier: 
   _name: "\u52C7\u8005"
-  _power: 0
-  _defensePower: 0
-  _speed: 1
-  _maxHp: 1
-  _maxMp: 1
+  _power: 10
+  _defensePower: 10
+  _speed: 10
+  _maxHp: 30
+  _maxMp: 15
   _skillData:
   - {fileID: 11400000, guid: 085b9e5842d8f6a48ab058b7508c4a5f, type: 2}
+  - {fileID: 11400000, guid: 57ef7b59991943641b1b168e2de6304a, type: 2}
+  - {fileID: 11400000, guid: 739868f6e8eebd14b93986f803affce6, type: 2}
+  - {fileID: 11400000, guid: 7a230af24a0680f42a9577f91ce7dd5d, type: 2}
+  - {fileID: 11400000, guid: 409f9f83bdb6da94ea1f0cab12fdf3b2, type: 2}
+  - {fileID: 11400000, guid: 1e13b2be8dbe21b4cba8210b798ffb35, type: 2}
+  - {fileID: 11400000, guid: 5c241e2131144e042afa12ce45c3e8a7, type: 2}
+  - {fileID: 11400000, guid: 8fc11e02e78f678469d11d3e2f47bfec, type: 2}

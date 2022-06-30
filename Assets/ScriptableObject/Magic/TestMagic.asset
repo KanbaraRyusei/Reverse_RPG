@@ -19,3 +19,4 @@ MonoBehaviour:
   _isWhole: 1
   _needMp: 8
   _attribute: 2
+  _effect: {fileID: 0}

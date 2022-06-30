@@ -1,0 +1,2186 @@
+fileFormatVersion: 2
+guid: ef9a9206af68f134c9accf510ceaa961
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2222220380381525832
+    second: '!PW-Candle01_0'
+  - first:
+      213: 3657286573348939791
+    second: '!PW-Candle01_1'
+  - first:
+      213: 8943275319667327058
+    second: '!PW-Candle01_2'
+  - first:
+      213: -9180189201083680082
+    second: '!PW-Candle01_3'
+  - first:
+      213: -6105113424212016820
+    second: '!PW-Candle01_4'
+  - first:
+      213: -6889341434518278805
+    second: '!PW-Candle01_5'
+  - first:
+      213: 5254608502245788529
+    second: '!PW-Candle01_6'
+  - first:
+      213: 9199616398103053620
+    second: '!PW-Candle01_7'
+  - first:
+      213: 1862225831416310521
+    second: '!PW-Candle01_8'
+  - first:
+      213: -6888660449260002115
+    second: '!PW-Candle01_9'
+  - first:
+      213: 7990415424311612013
+    second: '!PW-Candle01_10'
+  - first:
+      213: 3393064581791350933
+    second: '!PW-Candle01_11'
+  - first:
+      213: -1315262020090135333
+    second: '!PW-Candle01_12'
+  - first:
+      213: 8657172625399600677
+    second: '!PW-Candle01_13'
+  - first:
+      213: -5908078877517312795
+    second: '!PW-Candle01_14'
+  - first:
+      213: 1171525949547834441
+    second: '!PW-Candle01_15'
+  - first:
+      213: 8956720243820077427
+    second: '!PW-Candle01_16'
+  - first:
+      213: 76862598230221299
+    second: '!PW-Candle01_17'
+  - first:
+      213: 1033708228124765204
+    second: '!PW-Candle01_18'
+  - first:
+      213: -2635593242843086310
+    second: '!PW-Candle01_19'
+  - first:
+      213: -1949458433938201804
+    second: '!PW-Candle01_20'
+  - first:
+      213: 3112347937978161427
+    second: '!PW-Candle01_21'
+  - first:
+      213: -6190222713425849652
+    second: '!PW-Candle01_22'
+  - first:
+      213: -3406577517244890068
+    second: '!PW-Candle01_23'
+  - first:
+      213: 3494938165827487013
+    second: '!PW-Candle01_24'
+  - first:
+      213: -8360276668013788093
+    second: '!PW-Candle01_25'
+  - first:
+      213: 5207097178002682773
+    second: '!PW-Candle01_26'
+  - first:
+      213: -1532693390730418463
+    second: '!PW-Candle01_27'
+  - first:
+      213: 4210986423073944035
+    second: '!PW-Candle01_28'
+  - first:
+      213: 8839268349946483007
+    second: '!PW-Candle01_29'
+  - first:
+      213: 2955857101558080838
+    second: '!PW-Candle01_30'
+  - first:
+      213: 2793384044820329137
+    second: '!PW-Candle01_31'
+  - first:
+      213: 3436556848057639156
+    second: '!PW-Candle01_32'
+  - first:
+      213: -144453886800347426
+    second: '!PW-Candle01_33'
+  - first:
+      213: 1264708283915288986
+    second: '!PW-Candle01_34'
+  - first:
+      213: 6760827041530553026
+    second: '!PW-Candle01_35'
+  - first:
+      213: -4381549557003318638
+    second: '!PW-Candle01_36'
+  - first:
+      213: 5097378983108174045
+    second: '!PW-Candle01_37'
+  - first:
+      213: -5638430330582704962
+    second: '!PW-Candle01_38'
+  - first:
+      213: 4372393291805699999
+    second: '!PW-Candle01_39'
+  - first:
+      213: 6033919870451861556
+    second: '!PW-Candle01_40'
+  - first:
+      213: 8600660898181954647
+    second: '!PW-Candle01_41'
+  - first:
+      213: -5385315777752283988
+    second: '!PW-Candle01_42'
+  - first:
+      213: -3360327756256810208
+    second: '!PW-Candle01_43'
+  - first:
+      213: 792723691049914688
+    second: '!PW-Candle01_44'
+  - first:
+      213: -5006880411329031522
+    second: '!PW-Candle01_45'
+  - first:
+      213: 8167808526196161417
+    second: '!PW-Candle01_46'
+  - first:
+      213: -675670011727881157
+    second: '!PW-Candle01_47'
+  - first:
+      213: 6796441839946292751
+    second: '!PW-Candle01_48'
+  - first:
+      213: 843805110534906045
+    second: '!PW-Candle01_49'
+  - first:
+      213: 3783441323194449258
+    second: '!PW-Candle01_50'
+  - first:
+      213: -8306119446040881998
+    second: '!PW-Candle01_51'
+  - first:
+      213: 5844717265748872380
+    second: '!PW-Candle01_52'
+  - first:
+      213: -6879343172119223650
+    second: '!PW-Candle01_53'
+  - first:
+      213: -988434947620335190
+    second: '!PW-Candle01_54'
+  - first:
+      213: 4500001767675142763
+    second: '!PW-Candle01_55'
+  - first:
+      213: -5895815149638328247
+    second: '!PW-Candle01_56'
+  - first:
+      213: 2442191854588235535
+    second: '!PW-Candle01_57'
+  - first:
+      213: -2699197651034535593
+    second: '!PW-Candle01_58'
+  - first:
+      213: 5882890160857422260
+    second: '!PW-Candle01_59'
+  - first:
+      213: 7840105172683552352
+    second: '!PW-Candle01_60'
+  - first:
+      213: 430215374844084719
+    second: '!PW-Candle01_61'
+  - first:
+      213: -7597847602880986800
+    second: '!PW-Candle01_62'
+  - first:
+      213: -7776196055636670212
+    second: '!PW-Candle01_63'
+  - first:
+      213: -3221442768042011755
+    second: '!PW-Candle01_64'
+  - first:
+      213: 126281130650547048
+    second: '!PW-Candle01_65'
+  - first:
+      213: 1533986891949662441
+    second: '!PW-Candle01_66'
+  - first:
+      213: -7579649593387879548
+    second: '!PW-Candle01_67'
+  - first:
+      213: 6866914602127868097
+    second: '!PW-Candle01_68'
+  - first:
+      213: -3167391904420395008
+    second: '!PW-Candle01_69'
+  - first:
+      213: -5208571859473813503
+    second: '!PW-Candle01_70'
+  - first:
+      213: -2123809362671334323
+    second: '!PW-Candle01_71'
+  - first:
+      213: 6086152502563104126
+    second: '!PW-Candle01_72'
+  - first:
+      213: -5511041101916878715
+    second: '!PW-Candle01_73'
+  - first:
+      213: 397677472930461169
+    second: '!PW-Candle01_74'
+  - first:
+      213: 159263993331003668
+    second: '!PW-Candle01_75'
+  - first:
+      213: 2354553951920344601
+    second: '!PW-Candle01_76'
+  - first:
+      213: -425538732616064138
+    second: '!PW-Candle01_77'
+  - first:
+      213: 4938581512394281073
+    second: '!PW-Candle01_78'
+  - first:
+      213: -7129582756398279474
+    second: '!PW-Candle01_79'
+  - first:
+      213: -5401798532591475781
+    second: '!PW-Candle01_80'
+  - first:
+      213: -2082157128573652550
+    second: '!PW-Candle01_81'
+  - first:
+      213: -7859834576878677936
+    second: '!PW-Candle01_82'
+  - first:
+      213: -4478694659319191046
+    second: '!PW-Candle01_83'
+  - first:
+      213: -5081356680028571660
+    second: '!PW-Candle01_84'
+  - first:
+      213: 8274722533536429432
+    second: '!PW-Candle01_85'
+  - first:
+      213: 6837935735231134369
+    second: '!PW-Candle01_86'
+  - first:
+      213: -5311691101785604824
+    second: '!PW-Candle01_87'
+  - first:
+      213: 59524933150720446
+    second: '!PW-Candle01_88'
+  - first:
+      213: 3205046642555447547
+    second: '!PW-Candle01_89'
+  - first:
+      213: -8936678704255893570
+    second: '!PW-Candle01_90'
+  - first:
+      213: -953066518054106172
+    second: '!PW-Candle01_91'
+  - first:
+      213: -8257566971208131875
+    second: '!PW-Candle01_92'
+  - first:
+      213: 3911797689388824538
+    second: '!PW-Candle01_93'
+  - first:
+      213: -1159864001203860869
+    second: '!PW-Candle01_94'
+  - first:
+      213: -4930406489022531702
+    second: '!PW-Candle01_95'
+  - first:
+      213: 2794247844776880406
+    second: '!PW-Candle01_96'
+  - first:
+      213: 9222388327952304633
+    second: '!PW-Candle01_97'
+  - first:
+      213: -8261996142236550485
+    second: '!PW-Candle01_98'
+  - first:
+      213: 3845082247914221577
+    second: '!PW-Candle01_99'
+  - first:
+      213: 8818736901026772229
+    second: '!PW-Candle01_100'
+  - first:
+      213: -2760910430259813020
+    second: '!PW-Candle01_101'
+  - first:
+      213: 4092446078865062181
+    second: '!PW-Candle01_102'
+  - first:
+      213: 562031924430628767
+    second: '!PW-Candle01_103'
+  - first:
+      213: 560027616855761910
+    second: '!PW-Candle01_104'
+  - first:
+      213: -4842144093395486841
+    second: '!PW-Candle01_105'
+  - first:
+      213: 8307922504667921652
+    second: '!PW-Candle01_106'
+  - first:
+      213: 4284244260731645754
+    second: '!PW-Candle01_107'
+  - first:
+      213: -2891024324549788922
+    second: '!PW-Candle01_108'
+  - first:
+      213: 4419398053615152265
+    second: '!PW-Candle01_109'
+  - first:
+      213: -2288309439776949712
+    second: '!PW-Candle01_110'
+  - first:
+      213: -2661915527532833949
+    second: '!PW-Candle01_111'
+  - first:
+      213: 961856355595379787
+    second: '!PW-Candle01_112'
+  - first:
+      213: 5851378630644655262
+    second: '!PW-Candle01_113'
+  - first:
+      213: -4546803748580895795
+    second: '!PW-Candle01_114'
+  - first:
+      213: -4445140521182434789
+    second: '!PW-Candle01_115'
+  - first:
+      213: 6296890857245058712
+    second: '!PW-Candle01_116'
+  - first:
+      213: -2597934528859580485
+    second: '!PW-Candle01_117'
+  - first:
+      213: 2144658442851338252
+    second: '!PW-Candle01_118'
+  - first:
+      213: -3683275732663437920
+    second: '!PW-Candle01_119'
+  - first:
+      213: -3411454230573239718
+    second: '!PW-Candle01_120'
+  - first:
+      213: 9142358548225411517
+    second: '!PW-Candle01_121'
+  - first:
+      213: -8426808375941581543
+    second: '!PW-Candle01_122'
+  - first:
+      213: -7257601290279958143
+    second: '!PW-Candle01_123'
+  - first:
+      213: 7327011777980383042
+    second: '!PW-Candle01_124'
+  - first:
+      213: -8743515419123745407
+    second: '!PW-Candle01_125'
+  - first:
+      213: -5733355550432390806
+    second: '!PW-Candle01_126'
+  - first:
+      213: 8226423330831992836
+    second: '!PW-Candle01_127'
+  - first:
+      213: 4395330727197936150
+    second: '!PW-Candle01_128'
+  - first:
+      213: 668853251957452621
+    second: '!PW-Candle01_129'
+  - first:
+      213: 3317891031564853136
+    second: '!PW-Candle01_130'
+  - first:
+      213: -5054974017059671051
+    second: '!PW-Candle01_131'
+  - first:
+      213: 6293318467842526989
+    second: '!PW-Candle01_132'
+  - first:
+      213: -5293310751118849375
+    second: '!PW-Candle01_133'
+  - first:
+      213: 8329940210996959283
+    second: '!PW-Candle01_134'
+  - first:
+      213: -101793754502841883
+    second: '!PW-Candle01_135'
+  - first:
+      213: 72168616147947391
+    second: '!PW-Candle01_136'
+  - first:
+      213: -2766120375852179006
+    second: '!PW-Candle01_137'
+  - first:
+      213: -1291229398448545312
+    second: '!PW-Candle01_138'
+  - first:
+      213: 2202379882979379473
+    second: '!PW-Candle01_139'
+  - first:
+      213: -8210062680366354330
+    second: '!PW-Candle01_140'
+  - first:
+      213: -1792855715669275332
+    second: '!PW-Candle01_141'
+  - first:
+      213: 7460945154273184685
+    second: '!PW-Candle01_142'
+  - first:
+      213: -8855455078299793085
+    second: '!PW-Candle01_143'
+  - first:
+      213: 3143961596855303967
+    second: '!PW-Candle01_144'
+  - first:
+      213: -2116404474968269446
+    second: '!PW-Candle01_145'
+  - first:
+      213: -4182734358653778874
+    second: '!PW-Candle01_146'
+  - first:
+      213: -3456527852460556296
+    second: '!PW-Candle01_147'
+  - first:
+      213: 1194770043934913132
+    second: '!PW-Candle01_148'
+  - first:
+      213: 5828762048802371245
+    second: '!PW-Candle01_149'
+  - first:
+      213: -8764716592800324477
+    second: '!PW-Candle01_150'
+  - first:
+      213: 1073928320076068809
+    second: '!PW-Candle01_151'
+  - first:
+      213: -312659388416970988
+    second: '!PW-Candle01_152'
+  - first:
+      213: -4103690130776685668
+    second: '!PW-Candle01_153'
+  - first:
+      213: 6833258350978868640
+    second: '!PW-Candle01_154'
+  - first:
+      213: -1000539045915012231
+    second: '!PW-Candle01_155'
+  - first:
+      213: -3639057016146644026
+    second: '!PW-Candle01_156'
+  - first:
+      213: 4502998863229852114
+    second: '!PW-Candle01_157'
+  - first:
+      213: -4322118305607406892
+    second: '!PW-Candle01_158'
+  - first:
+      213: -8214451813074152488
+    second: '!PW-Candle01_159'
+  - first:
+      213: -1075170209464466087
+    second: '!PW-Candle01_160'
+  - first:
+      213: -5926450862444033661
+    second: '!PW-Candle01_161'
+  - first:
+      213: -9058159096187484637
+    second: '!PW-Candle01_162'
+  - first:
+      213: 1831254361711612078
+    second: '!PW-Candle01_163'
+  - first:
+      213: 7950375323544313117
+    second: '!PW-Candle01_164'
+  - first:
+      213: 6181843466008468761
+    second: '!PW-Candle01_165'
+  - first:
+      213: -7317275212226991073
+    second: '!PW-Candle01_166'
+  - first:
+      213: -1559726971911854936
+    second: '!PW-Candle01_167'
+  - first:
+      213: -8919061931945729061
+    second: '!PW-Candle01_168'
+  - first:
+      213: -7344948848472301838
+    second: '!PW-Candle01_169'
+  - first:
+      213: 3353268058443037445
+    second: '!PW-Candle01_170'
+  - first:
+      213: 7346916936489427097
+    second: '!PW-Candle01_171'
+  - first:
+      213: -391823157563953439
+    second: '!PW-Candle01_172'
+  - first:
+      213: -4799391851957568247
+    second: '!PW-Candle01_173'
+  - first:
+      213: 6543965428544833496
+    second: '!PW-Candle01_174'
+  - first:
+      213: -5353397436283747788
+    second: '!PW-Candle01_175'
+  - first:
+      213: -5504273294245134928
+    second: '!PW-Candle01_176'
+  - first:
+      213: -1484165426219862381
+    second: '!PW-Candle01_177'
+  - first:
+      213: -5388407909615854813
+    second: '!PW-Candle01_178'
+  - first:
+      213: 7085765471916613859
+    second: '!PW-Candle01_179'
+  - first:
+      213: -524343880984980785
+    second: '!PW-Candle01_180'
+  - first:
+      213: -846646060249474478
+    second: '!PW-Candle01_181'
+  - first:
+      213: 4446961301309015038
+    second: '!PW-Candle01_182'
+  - first:
+      213: -4150724082536710482
+    second: '!PW-Candle01_183'
+  - first:
+      213: -5273209519121789816
+    second: '!PW-Candle01_184'
+  - first:
+      213: -1604448116855169708
+    second: '!PW-Candle01_185'
+  - first:
+      213: 8529603236253012912
+    second: '!PW-Candle01_186'
+  - first:
+      213: 5438044202254804796
+    second: '!PW-Candle01_187'
+  - first:
+      213: 8249263549960833356
+    second: '!PW-Candle01_188'
+  - first:
+      213: 7253874080151247226
+    second: '!PW-Candle01_189'
+  - first:
+      213: -3916575575302097319
+    second: '!PW-Candle01_190'
+  - first:
+      213: -4240858072408596061
+    second: '!PW-Candle01_191'
+  - first:
+      213: 5793172056881212961
+    second: '!PW-Candle01_192'
+  - first:
+      213: -2146411203386479665
+    second: '!PW-Candle01_193'
+  - first:
+      213: 8644550516409582249
+    second: '!PW-Candle01_194'
+  - first:
+      213: 84701418354374011
+    second: '!PW-Candle01_195'
+  - first:
+      213: -9178839128082917537
+    second: '!PW-Candle01_196'
+  - first:
+      213: -4616891875493980722
+    second: '!PW-Candle01_197'
+  - first:
+      213: 1139844757687140180
+    second: '!PW-Candle01_198'
+  - first:
+      213: 6152135804181853290
+    second: '!PW-Candle01_199'
+  - first:
+      213: -4599905065414682552
+    second: '!PW-Candle01_200'
+  - first:
+      213: -4264661843169237508
+    second: '!PW-Candle01_201'
+  - first:
+      213: -8895956615367351640
+    second: '!PW-Candle01_202'
+  - first:
+      213: 8836274028885623182
+    second: '!PW-Candle01_203'
+  - first:
+      213: 8097337603920155063
+    second: '!PW-Candle01_204'
+  - first:
+      213: -4758869754911507961
+    second: '!PW-Candle01_205'
+  - first:
+      213: -1824054536081893870
+    second: '!PW-Candle01_206'
+  - first:
+      213: -6838742093027760204
+    second: '!PW-Candle01_207'
+  - first:
+      213: 5146715904805806721
+    second: '!PW-Candle01_208'
+  - first:
+      213: -5955988598226063449
+    second: '!PW-Candle01_209'
+  - first:
+      213: 4062395722588316273
+    second: '!PW-Candle01_210'
+  - first:
+      213: 5953519474024353179
+    second: '!PW-Candle01_211'
+  - first:
+      213: 1793235637545066148
+    second: '!PW-Candle01_212'
+  - first:
+      213: 532087138046536663
+    second: '!PW-Candle01_213'
+  - first:
+      213: 261634168108436618
+    second: '!PW-Candle01_214'
+  - first:
+      213: -6476559864377053978
+    second: '!PW-Candle01_215'
+  - first:
+      213: -1684329992902923725
+    second: '!PW-Candle01_216'
+  - first:
+      213: 8083849288452200013
+    second: '!PW-Candle01_217'
+  - first:
+      213: 1455078373149440906
+    second: '!PW-Candle01_218'
+  - first:
+      213: 4294135668335636630
+    second: '!PW-Candle01_219'
+  - first:
+      213: -1987061990139448171
+    second: '!PW-Candle01_220'
+  - first:
+      213: -7411841855560180125
+    second: '!PW-Candle01_221'
+  - first:
+      213: 3536697657986111297
+    second: '!PW-Candle01_222'
+  - first:
+      213: 6347405268197760695
+    second: '!PW-Candle01_223'
+  - first:
+      213: 8861842623122701330
+    second: '!PW-Candle01_224'
+  - first:
+      213: -2622678168139872173
+    second: '!PW-Candle01_225'
+  - first:
+      213: -8533815978964003734
+    second: '!PW-Candle01_226'
+  - first:
+      213: 2444881870937470627
+    second: '!PW-Candle01_227'
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '!PW-Candle01_0'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847364189a9e6de10800000000000000
+      internalID: 2222220380381525832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_1'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08e446e2ca41c230800000000000000
+      internalID: 3657286573348939791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_2'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2500a4d0585ec1c70800000000000000
+      internalID: 8943275319667327058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_3'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaab7827f8a699080800000000000000
+      internalID: -9180189201083680082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_4'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41cf5cdfa7464ba0800000000000000
+      internalID: -6105113424212016820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_5'
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d682377742460a0800000000000000
+      internalID: -6889341434518278805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_6'
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b8b1ab79e1ce840800000000000000
+      internalID: 5254608502245788529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_7'
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4358ac65f5a9baf70800000000000000
+      internalID: 9199616398103053620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_8'
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa2025f684f7d910800000000000000
+      internalID: 1862225831416310521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_9'
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4239fa1df8660a0800000000000000
+      internalID: -6888660449260002115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_10'
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6255ed4e78a3ee60800000000000000
+      internalID: 7990415424311612013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_11'
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59002a98246961f20800000000000000
+      internalID: 3393064581791350933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_12'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcf6f949204fbde0800000000000000
+      internalID: -1315262020090135333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_13'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526dd2892a4742870800000000000000
+      internalID: 8657172625399600677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_14'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec87903099420ea0800000000000000
+      internalID: -5908078877517312795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_15'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c63f3e4a8124010800000000000000
+      internalID: 1171525949547834441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_16'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37122756b99ac4c70800000000000000
+      internalID: 8956720243820077427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_17'
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1a6083022111100800000000000000
+      internalID: 76862598230221299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_18'
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c66ca1828785e00800000000000000
+      internalID: 1033708228124765204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_19'
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a120bebd8ed7c6bd0800000000000000
+      internalID: -2635593242843086310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_20'
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43369bc02e122f4e0800000000000000
+      internalID: -1949458433938201804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_21'
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3199b9ca5f7413b20800000000000000
+      internalID: 3112347937978161427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_22'
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc292b54d39e71aa0800000000000000
+      internalID: -6190222713425849652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_23'
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2449c00cc769b0d0800000000000000
+      internalID: -3406577517244890068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_24'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5254a1eaeb3808030800000000000000
+      internalID: 3494938165827487013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_25'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3444d034aa45afb80800000000000000
+      internalID: -8360276668013788093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_26'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593f9c58b43534840800000000000000
+      internalID: 5207097178002682773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_27'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6acef4b77cabae0800000000000000
+      internalID: -1532693390730418463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_28'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1b05d47dd607a30800000000000000
+      internalID: 4210986423073944035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_29'
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f31d9e85bb36baa70800000000000000
+      internalID: 8839268349946483007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_30'
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6456f218f50550920800000000000000
+      internalID: 2955857101558080838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_31'
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b272c02df714c620800000000000000
+      internalID: 2793384044820329137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_32'
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f069e2ee3a11bf20800000000000000
+      internalID: 3436556848057639156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_33'
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede37de84fbcefdf0800000000000000
+      internalID: -144453886800347426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_34'
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91c347cb752d8110800000000000000
+      internalID: 1264708283915288986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_35'
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2a846bf5843dd50800000000000000
+      internalID: 6760827041530553026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_36'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a0c0174eb9133c0800000000000000
+      internalID: -4381549557003318638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_37'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd064b59d278db640800000000000000
+      internalID: 5097378983108174045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_38'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc54deec7540c1b0800000000000000
+      internalID: -5638430330582704962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_39'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f2160788cddac30800000000000000
+      internalID: 4372393291805699999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_40'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4384471372accb350800000000000000
+      internalID: 6033919870451861556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_41'
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c3ab5c48fab5770800000000000000
+      internalID: 8600660898181954647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_42'
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4c4cf25d38345b0800000000000000
+      internalID: -5385315777752283988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_43'
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b6d6f95b7bd51d0800000000000000
+      internalID: -3360327756256810208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_44'
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041111a3ff1500b00800000000000000
+      internalID: 792723691049914688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_45'
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e921fd12bccf38ab0800000000000000
+      internalID: -5006880411329031522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_46'
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b34556492e95170800000000000000
+      internalID: 8167808526196161417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_47'
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c539544b98f96f0800000000000000
+      internalID: -675670011727881157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_48'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ed99628dfc15e50800000000000000
+      internalID: 6796441839946292751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_49'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0a711074cc5bb00800000000000000
+      internalID: 843805110534906045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_50'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6df98186db718430800000000000000
+      internalID: 3783441323194449258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_51'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4d4cc1f5cbabc80800000000000000
+      internalID: -8306119446040881998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_52'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbccd85f26b9c1150800000000000000
+      internalID: 5844717265748872380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_53'
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9223d155d9a780a0800000000000000
+      internalID: -6879343172119223650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_54'
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa1128fe6af5842f0800000000000000
+      internalID: -988434947620335190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_55'
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6228e204c7337e30800000000000000
+      internalID: 4500001767675142763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_56'
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940e078db5bdd2ea0800000000000000
+      internalID: -5895815149638328247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_57'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f851e6d8864e120800000000000000
+      internalID: 2442191854588235535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_58'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759848f89068a8ad0800000000000000
+      internalID: -2699197651034535593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_59'
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b91c82be6934a150800000000000000
+      internalID: 5882890160857422260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_60'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066718bad16adcc60800000000000000
+      internalID: 7840105172683552352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_61'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe14e72aa9e68f500800000000000000
+      internalID: 430215374844084719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_62'
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051c9bc3cd50f8690800000000000000
+      internalID: -7597847602880986800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_63'
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf88bff23e6651490800000000000000
+      internalID: -7776196055636670212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_64'
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 593da92ded22b43d0800000000000000
+      internalID: -3221442768042011755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!PW-Candle01_65'
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863b24ee404a0c100800000000000000
+      internalID: 126281130650547048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
