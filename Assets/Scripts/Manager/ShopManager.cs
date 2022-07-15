@@ -4,150 +4,27 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.UI;
 
-public class ShopManager : MonoBehaviour
+public class ShopManager : SingletonMonoBehaviour<ShopManager>
 {
     [SerializeField]
-    [Header("表示するパネル")]
-    GameObject _panel;
-
+    [Header("購入,売却")]
+    GameObject Sold_Panel;
     [SerializeField]
-    [Header("表示するボタン")]
-    Button _button;
+    [Header("アイテム一覧")]
+    GameObject Item_Panel;
+    
+  
+    
 
-    List<Button> _buttons = new List<Button>();
-    public void SetPanel(bool flag)
+
+    private void Start()
     {
-        _panel.SetActive(flag);
+        Sold_Panel.SetActive(false);
+        Item_Panel.SetActive(false);
     }
-
-    public void SetButtonToSelectAction(IReadOnlyList<PlayerAction> playerActions)
+    public void Shop()
     {
-        ButtonSetting(playerActions.Count);
-        for (int i = 0; i < ButtonSearch(); i++)
-        {
-            var x = i;
-            ButtonTextChenge(_buttons[x], playerActions[x].ActionName);
-            _buttons[x].onClick.AddListener(() =>
-            DirectionSetButton(playerActions[x].Type)
-            );
-        }
-    }
-
-    void ButtonSetting(int needButtonNum)
-    {
-        ResetListenerMethod();
-        if (_buttons.Count < needButtonNum)
-        {
-            ButtonGenerate(needButtonNum - _buttons.Count);
-        }
-        HideButton();
-        NotHideButton(needButtonNum);
-        _buttons[0].Select();
-    }
-
-    void SetButtonToTargetDecision()
-    {
-        ButtonSetting(BattleManager.Instance.Enemies.Length);
-        for (int i = 0; i < BattleManager.Instance.Enemies.Length; i++)
-        {
-            var x = i;
-            ButtonTextChenge(_buttons[x], BattleManager.Instance.Enemies[x].GetComponent<EnemyBase>().Name);
-            _buttons[x].onClick.AddListener(() => BattleManager.Instance.Player.SetTarget(BattleManager.Instance.Enemies[x]));
-        }
-    }
-
-    int ButtonSearch()
-    {
-        return _buttons.Where(x => x.gameObject.activeSelf).Count();
-    }
-
-    void ButtonTextChenge(Button button, string str)
-    {
-        button.GetComponentInChildren<Text>().text = str;
-    }
-
-    void ButtonGenerate(int num)// Buttonが足りなくなったら生成する
-    {
-        for (int i = 0; i < num; i++)
-        {
-            var button = Instantiate(_button, _panel.transform);
-            button.transform.position = _panel.transform.position;
-            _buttons.Add(button);
-        }
-    }
-
-    void NotHideButton(int num)
-    {
-        for (int i = 0; i < num; i++)
-        {
-            _buttons[i].gameObject.SetActive(true);
-        }
-    }
-
-    void HideButton()// Buttonを隠す
-    {
-        for (int i = 0; i < _buttons.Count; i++)
-        {
-            _buttons[i].gameObject.SetActive(false);
-        }
-    }
-
-    void ResetListenerMethod()// Buttonに登録されている関数を全て削除する
-    {
-        for (int i = 0; i < _buttons.Count; i++)
-        {
-            _buttons[i].onClick.RemoveAllListeners();
-        }
-    }
-
-    void DirectionSetButton(PlayerAction.ActionType actionType)
-    {
-        switch (actionType)
-        {
-            case PlayerAction.ActionType.NomalAttack:
-                SetButtonToSelectAction(BattleManager.Instance.Player.Skill.Where(x => x.SkillType == SkillData.Type.NomalAttack).ToList());
-                break;
-            case PlayerAction.ActionType.Magic:
-                SetButtonToSelectAction(BattleManager.Instance.Player.Skill.Where(x => x.SkillType == SkillData.Type.Magic).ToList());
-                break;
-            case PlayerAction.ActionType.Skill:
-                SetButtonToSelectAction(BattleManager.Instance.Player.Skill.Where(x => x.SkillType == SkillData.Type.Skill).ToList());
-                break;
-            case PlayerAction.ActionType.Item:
-                SetButtonToSelectItem(BattleManager.Instance.Player.Items);
-                break;
-            case PlayerAction.ActionType.Escape:
-                BattleManager.Instance.Escape();
-                break;
-        }
-    }
-
-    void SetButtonToSelectAction(IReadOnlyList<SkillData> skills)
-    {
-        ButtonSetting(skills.Count);
-        for (int i = 0; i < ButtonSearch(); i++)
-        {
-            var x = i;
-            ButtonTextChenge(_buttons[x], skills[x].SkillName);
-            _buttons[x].onClick.AddListener(() =>
-            {
-                BattleManager.Instance.Player.SetSkill(skills[x]);
-                SetButtonToTargetDecision();
-            });
-        }
-    }
-
-    void SetButtonToSelectItem(IReadOnlyList<ItemData> items)
-    {
-        ButtonSetting(items.Count);
-        for (int i = 0; i < ButtonSearch(); i++)
-        {
-            var x = i;
-            ButtonTextChenge(_buttons[x], items[x].Name);
-            _buttons[x].onClick.AddListener(() =>
-            {
-                BattleManager.Instance.Player.UseItem(items[x]);
-            });
-        }
+        Sold_Panel.SetActive(true);
+    
     }
 }
