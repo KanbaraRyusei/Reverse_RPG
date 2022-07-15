@@ -423,11 +423,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Managers
       objectReference: {fileID: 0}
-    - target: {fileID: 2602963841570003223, guid: 0357feba34f655d44a578a49e1d1a5ec,
-        type: 3}
-      propertyPath: _mapSceneName
-      value: map
-      objectReference: {fileID: 0}
     - target: {fileID: 2602963841570003225, guid: 0357feba34f655d44a578a49e1d1a5ec,
         type: 3}
       propertyPath: m_RootOrder

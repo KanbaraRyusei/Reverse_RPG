@@ -2,23 +2,32 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 
 public class PlayerController : MonoBehaviour
 {
 
+
+
+
+
+
+
+   
     private float activeMoveSpeed;
+
+
+
+
+
+
+
 
     [SerializeField, Tooltip("移動スピード")]
     private int movespeed;
 
     [SerializeField]
     private Animator playerAnime;
-
-    [SerializeField]
-    [Header("マップシーンの名前")]
-    string _mapSceneName;
 
 
 
@@ -95,7 +104,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "Enemy")
         {
-            SceneLoder.LoadScene(_mapSceneName);
+            Debug.Log("シーン移行_Battle");
         }
     }
 }
