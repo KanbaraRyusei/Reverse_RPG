@@ -18,7 +18,20 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
 
     [SerializeField]
     [Header("表示するボタン")]
+    //アイテム購入、売却
     Button _button;
+
+    [SerializeField]
+    [Header("表示するアイテムのボタン")]
+    Button _shopbutton;
+
+  
+    List<Image> Image = new List<Image>();
+
+    [SerializeField]
+    [Header("アイテムの画像を表示")]
+    Image _image;
+
 
     List<Button> _buttons = new List<Button>();
 
@@ -26,12 +39,22 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
     [Header("表示したいアイテムデータ")]
     List<ItemData> Items = new List<ItemData>();
 
+    ItemData Item => _item;
+
+    ItemData _item;
+
     int ItemNumbar;
 
     [SerializeField]
     [Header("表示したいButtonの数")]
     int ButtonNumbers;
 
+ 
+    List<Text> UItext = new List<Text>();
+
+    [SerializeField]
+    [Header("表示したいText")]
+    Text UIText;
 
 
 
@@ -40,9 +63,10 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
 
     private void Start()
     {
+        ItemGenerate();
         _panel.SetActive(false);
         _Item_panel.SetActive(false);
-        //_panel.SetActive(false);
+        
     }
     public void ShopOpen()
     {
@@ -53,8 +77,13 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
         {
             var x = i;
             _buttons[x].onClick.AddListener(() => _Item_panel.SetActive(true));
-            ItemGenerate();
+            
         }
+    }
+    public void Close()
+    {
+        _Item_panel.SetActive(false);
+        _panel.SetActive(false);
     }
     void ButtonSetting(int needButtonNum)
         {
@@ -76,7 +105,9 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
                 var button = Instantiate(_button, _panel.transform);
                 button.transform.position = _panel.transform.position;
                 _buttons.Add(button);
-            }
+
+            
+        }
 
         }
         void ItemGenerate()
@@ -84,17 +115,31 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
            
             foreach(var i in Items)
             {
+            
                 ItemNumbar++;
-                var button = Instantiate(_button, _Item_panel.transform);
+                var button = Instantiate(_shopbutton, _Item_panel.transform);
                 button.transform.position = _Item_panel.transform.position;
-                _buttons.Add(button);
+            _buttons.Add(button);
 
-            }
-
+           
+            var Text = Instantiate(UIText, _Item_panel.transform);
+            Text.transform.position = _Item_panel.transform.position;
+            UItext.Add(Text);
           
 
 
+
         }
+        
+
+        }
+    void Iteminfo()
+    {
+        foreach(var i in Items)
+        {
+            _buttons[0].image.sprite = Items[0].ItemSprite;
+        }
+    }
         int ButtonSearch()
         {
             return _buttons.Where(x => x.gameObject.activeSelf).Count();

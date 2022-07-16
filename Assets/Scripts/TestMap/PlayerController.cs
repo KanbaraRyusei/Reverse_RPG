@@ -68,7 +68,9 @@ public class PlayerController : MonoBehaviour
                 ShopManager.Instance.ShopOpen();
 
 
+
             }
+            
         }
 
 
@@ -136,6 +138,7 @@ public class PlayerController : MonoBehaviour
 
         {
             canActivater = false;
+            ShopManager.Instance.Close();
 
 
 
