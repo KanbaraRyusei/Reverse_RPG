@@ -12,8 +12,7 @@ public class Dialog : MonoBehaviour
 
     public bool canActivater;
 
-    GameObject playerObject;
-
+    
 
 
    
@@ -21,7 +20,7 @@ public class Dialog : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerObject = GameObject.FindGameObjectWithTag("Player");
+       
         flowchart = GetComponent<Flowchart>();
         
 
@@ -44,6 +43,7 @@ public class Dialog : MonoBehaviour
 
             flowchart.SendFungusMessage(messsage);
             yield return new WaitUntil(() => flowchart.GetExecutingBlocks().Count == 0);
+            
 
           
         }

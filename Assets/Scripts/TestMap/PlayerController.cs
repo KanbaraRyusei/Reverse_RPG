@@ -2,26 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Fungus;
 
-
+[RequireComponent(typeof(Flowchart))]
 public class PlayerController : MonoBehaviour
 {
 
-
-
-
-
-
-
-   
     private float activeMoveSpeed;
-
-
-
-
-
-
-
 
     [SerializeField, Tooltip("移動スピード")]
     private int movespeed;
@@ -29,20 +16,27 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private Animator playerAnime;
 
-
-
-
     public Rigidbody2D rb;
 
-   
+    [SerializeField]
+    string messsage = "";
+
+    public bool canActivater;
+
+    Flowchart flowchart;
+
+
+
+
     // Start is called before the first frame update
 
 
-  
+
     void Start()
     {
 
         activeMoveSpeed = movespeed;
+        flowchart = GetComponent<Flowchart>();
 
 
 
@@ -55,7 +49,27 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        //ノックバック
+        {
+            if (Input.GetMouseButtonDown(1) && canActivater)
+            {
+                StartCoroutine(Talk());
+
+
+            }
+
+
+            IEnumerator Talk()
+            {
+
+
+
+                flowchart.SendFungusMessage(messsage);
+                yield return new WaitUntil(() => flowchart.GetExecutingBlocks().Count == 0);
+                ShopManager.Instance.ShopOpen();
+
+
+            }
+        }
 
 
 
@@ -100,11 +114,31 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+  private void OnCollisionEnter2D(UnityEngine.Collision2D other)
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (other.gameObject.tag == "ShopNPC")
         {
-            Debug.Log("シーン移行_Battle");
+            canActivater = true;
+
+        }
+        else if(other.gameObject.tag == "Enemy")
+        {
+                Debug.Log("シーン移行_Battle");
+            
+        }
+      
+
+
+    }
+    private void OnCollisionExit2D(UnityEngine.Collision2D other)
+    {
+        if (other.gameObject.tag == "ShopNPC")
+
+        {
+            canActivater = false;
+
+
+
         }
     }
 }
