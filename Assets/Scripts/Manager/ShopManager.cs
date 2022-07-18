@@ -25,14 +25,23 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
     [Header("表示するアイテムのボタン")]
     Button _shopbutton;
 
- 
+  
+    List<Image> Image = new List<Image>();
+
+    [SerializeField]
+    [Header("アイテムの画像を表示")]
+    Image _image;
 
 
     List<Button> _buttons = new List<Button>();
 
-   
+    [SerializeField]
+    [Header("表示したいアイテムデータ")]
+    List<ItemData> Items = new List<ItemData>();
 
-   
+    ItemData Item => _item;
+
+    ItemData _item;
 
     int ItemNumbar;
 
@@ -54,7 +63,7 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
 
     private void Start()
     {
-        //ItemGenerate();
+        ItemGenerate();
         _panel.SetActive(false);
         _Item_panel.SetActive(false);
         
@@ -101,12 +110,12 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
         }
 
         }
-        /*void ItemGenerate()
+        void ItemGenerate()
         {
            
             foreach(var i in Items)
             {
-
+            
                 ItemNumbar++;
                 var button = Instantiate(_shopbutton, _Item_panel.transform);
                 button.transform.position = _Item_panel.transform.position;
@@ -116,12 +125,6 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
             var Text = Instantiate(UIText, _Item_panel.transform);
             Text.transform.position = _Item_panel.transform.position;
             UItext.Add(Text);
-
-            
-            
-                Image[1].sprite = Items[1].ItemSprite;
-
-            
           
 
 
@@ -134,9 +137,9 @@ public class ShopManager : SingletonMonoBehaviour<ShopManager>
     {
         foreach(var i in Items)
         {
-            
+            _buttons[0].image.sprite = Items[0].ItemSprite;
         }
-    }*/
+    }
         int ButtonSearch()
         {
             return _buttons.Where(x => x.gameObject.activeSelf).Count();
