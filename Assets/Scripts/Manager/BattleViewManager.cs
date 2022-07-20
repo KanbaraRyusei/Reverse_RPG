@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 using System.Linq;
 
 public class BattleViewManager : SingletonMonoBehaviour<BattleViewManager>
@@ -14,7 +15,12 @@ public class BattleViewManager : SingletonMonoBehaviour<BattleViewManager>
     [Header("表示するボタン")]
     Button _button;
 
+    [SerializeField]
+    [Header("戻るボタンに表示するテキスト")]
+    string _restoreButtonText = "戻る";
+
     List<Button> _buttons = new List<Button>();
+    Stack<BattleMemento> _battleMementos = new Stack<BattleMemento>();
 
     public void SetPanel(bool flag)
     {
@@ -23,27 +29,51 @@ public class BattleViewManager : SingletonMonoBehaviour<BattleViewManager>
 
     public void SetButtonToSelectAction(IReadOnlyList<PlayerAction> playerActions)
     {
+        _battleMementos.Clear();
         ButtonSetting(playerActions.Count);
         for (int i = 0; i < ButtonSearch(); i++)
         {
             var x = i;
             ButtonTextChenge(_buttons[x], playerActions[x].ActionName);
             _buttons[x].onClick.AddListener(() =>
-            DirectionSetButton(playerActions[x].Type)
-            );
+            {
+                _battleMementos.Push(CreateMemento(() => SetButtonToSelectAction(playerActions)));
+                DirectionSetButton(playerActions[x].Type);
+            });
         }
+    }
+
+    public void RestoreMementoButton()
+    {
+        _battleMementos.Pop().RestoreMemento();
+        Debug.Log("Restore");
     }
 
     void ButtonSetting(int needButtonNum)
     {
         ResetListenerMethod();
-        if(_buttons.Count < needButtonNum)
+        if (_battleMementos.Count >= 1)
         {
-            ButtonGenerate(needButtonNum - _buttons.Count);
+            if (_buttons.Count < needButtonNum + 1)
+            {
+                ButtonGenerate(needButtonNum + 1 - _buttons.Count);
+            }
+            HideButton();
+            NotHideButton(needButtonNum + 1);
+            _buttons[0].Select();
+            ButtonTextChenge(_buttons[needButtonNum], _restoreButtonText);
+            _buttons[needButtonNum].onClick.AddListener(() => RestoreMementoButton());
         }
-        HideButton();
-        NotHideButton(needButtonNum);
-        _buttons[0].Select();
+        else
+        {
+            if (_buttons.Count < needButtonNum)
+            {
+                ButtonGenerate(needButtonNum - _buttons.Count);
+            }
+            HideButton();
+            NotHideButton(needButtonNum);
+            _buttons[0].Select();
+        }
     }
 
     void SetButtonToTargetDecision()
@@ -53,13 +83,19 @@ public class BattleViewManager : SingletonMonoBehaviour<BattleViewManager>
         {
             var x = i;
             ButtonTextChenge(_buttons[x], BattleManager.Instance.Enemies[x].GetComponent<EnemyBase>().Name);
-            _buttons[x].onClick.AddListener(() => BattleManager.Instance.Player.SetTarget(BattleManager.Instance.Enemies[x]));
+            _buttons[x].onClick.AddListener(() =>
+            {
+                _battleMementos.Push(CreateMemento(() => SetButtonToTargetDecision()));
+                BattleManager.Instance.Player.SetTarget(BattleManager.Instance.Enemies[x]);
+            });
         }
     }
 
     int ButtonSearch()
     {
-        return _buttons.Where(x => x.gameObject.activeSelf).Count();
+        return _battleMementos.Count >= 1 ?
+            _buttons.Where(x => x.gameObject.activeSelf).Count() - 1 :
+            _buttons.Where(x => x.gameObject.activeSelf).Count();
     }
 
     void ButtonTextChenge(Button button, string str)
@@ -132,6 +168,7 @@ public class BattleViewManager : SingletonMonoBehaviour<BattleViewManager>
             ButtonTextChenge(_buttons[x], skills[x].SkillName);
             _buttons[x].onClick.AddListener(() =>
             {
+                _battleMementos.Push(CreateMemento(() => SetButtonToSelectAction(skills)));
                 BattleManager.Instance.Player.SetSkill(skills[x]);
                 SetButtonToTargetDecision();
             });
@@ -147,8 +184,15 @@ public class BattleViewManager : SingletonMonoBehaviour<BattleViewManager>
             ButtonTextChenge(_buttons[x], items[x].Name);
             _buttons[x].onClick.AddListener(() =>
             {
+                _battleMementos.Push(CreateMemento(() => SetButtonToSelectItem(items)));
                 BattleManager.Instance.Player.UseItem(items[x]);
             });
         }
+    }
+
+    BattleMemento CreateMemento(Action action)
+    {
+        BattleMemento memento = new BattleMemento(action);
+        return memento;
     }
 }

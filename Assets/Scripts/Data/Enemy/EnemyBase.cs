@@ -52,11 +52,21 @@ public class EnemyBase : MonoBehaviour, IDamage, IDoAction, IHeelHP
         _skillDatas = _enemyData.Skill;
     }
 
-    void Attack()
+    void Attack(SkillData skillData)
     {
-        if(BattleManager.Instance.Player.TryGetComponent(out IDamage id))
+        if (skillData == null)
         {
-            id.ReceiveDamage(_power);
+            if (BattleManager.Instance.Player.TryGetComponent(out IDamage id))
+            {
+                id.ReceiveDamage(_power);
+            }
+        }
+        else
+        {
+            if (BattleManager.Instance.Player.TryGetComponent(out IDamage id))
+            {
+                id.ReceiveDamage(skillData.Damage);
+            }
         }
     }
 
@@ -68,7 +78,7 @@ public class EnemyBase : MonoBehaviour, IDamage, IDoAction, IHeelHP
 
     public void DoAction()
     {
-        Attack();
+        Attack(SkillDerection());
     }
 
     public void HeelHP(int num)
@@ -78,5 +88,18 @@ public class EnemyBase : MonoBehaviour, IDamage, IDoAction, IHeelHP
             num = _maxHp - _hp;
         }
         _hp += num;
+    }
+
+    SkillData SkillDerection()
+    {
+        for (int i = 0; i < _skillDatas.Count; i++)
+        {
+            if (Random.Range(0, _skillDatas.Count) > i)
+            {
+                Debug.Log(_skillDatas[i].SkillName + _skillDatas[i].SkillType);
+                return _skillDatas[i];
+            }
+        }
+        return null;
     }
 }

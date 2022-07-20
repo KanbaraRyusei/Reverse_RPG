@@ -10,6 +10,7 @@ public class ItemData : ScriptableObject
     public Param Parameter => _param;
     public int Heel => _heel;
     public string Name => _name;
+    public int Price => _price;
     public string Explanation => _explanation;
     public Sprite ItemSprite => _sprite;
 
@@ -24,6 +25,10 @@ public class ItemData : ScriptableObject
     [SerializeField]
     [Header("アイテム名")]
     string _name;
+
+    [SerializeField]
+    [Header("値段")]
+    int _price;
 
     [SerializeField]
     [Header("説明")]

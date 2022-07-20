@@ -24,7 +24,7 @@ public class PlayerBase : MonoBehaviour, IDamage, ISelectAction, IDoAction, IHee
     [SerializeField]
     PlayerAction[] _playerActions;
 
-    List<ItemData> _items;
+    List<ItemData> _items = new List<ItemData>();
     SkillData _skill;
 
     public event Action OnAction = null;
