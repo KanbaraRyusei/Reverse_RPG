@@ -15,5 +15,6 @@ MonoBehaviour:
   _param: 0
   _heel: 50
   _name: "\u6BD2\u3005\u3057\u3044\u30DD\u30FC\u30B7\u30E7\u30F3"
+  _price: 250
   _explanation: "\u6BD2\u3005\u3057\u3044\u898B\u305F\u76EE\u306E\u30DD\u30FC\u30B7\u30E7\u30F3"
   _sprite: {fileID: 0}
